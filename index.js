@@ -1,14 +1,14 @@
 
 const vitorias = 150;
 const derrotas = 7;
-const soma = vitorias - derrotas;
+const calculo = vitorias - derrotas;
 
 
-function quantidadesDeVitoria(soma) {
-   return soma; 
+function resultado(calculo) {
+   return calculo; 
 }
 
-const saldo = quantidadesDeVitoria(soma);
+const saldo = resultado(calculo);
 
 if (saldo < 10) {
    nivel = 'Ferro';  
